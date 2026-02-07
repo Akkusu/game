@@ -14,6 +14,8 @@ defineEmits<{ start: [] }>()
 .start-view {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 90vh;
   min-height: 90dvh;
   width: 100%;
