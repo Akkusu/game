@@ -7,6 +7,7 @@ defineEmits<{ start: [] }>()
     <div class="start-content">
       <img src="@/assets/img/CabezaTernurinLentes.png" alt="" class="start-avatar" />
       <h1 class="start-title">¿Estás lista para el amor?</h1>
+      <h1 class="start-subtitle">Espero te diviertas</h1>
       <button type="button" class="start-btn" @click="$emit('start')">Iniciar</button>
     </div>
   </div>
