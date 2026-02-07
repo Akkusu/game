@@ -38,7 +38,7 @@ defineEmits<{ start: [] }>()
   height: 5rem;
   object-fit: contain;
   border-radius: 50%;
-  background: #f9e1df;
+  background: var(--color-cinnamoroll-blue);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 

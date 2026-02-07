@@ -36,7 +36,7 @@ defineProps<{
   height: 2.25rem;
   border-radius: 50%;
   object-fit: contain;
-  background: #f9e1df;
+  background: var(--color-cinnamoroll-blue);
 }
 
 .bubble {
@@ -46,7 +46,7 @@ defineProps<{
   padding: 0.75rem 1rem;
   border-radius: 1rem;
   border-bottom-left-radius: 0.25rem;
-  background: #f9e1df;
+  background: var(--color-cinnamoroll-blue);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 

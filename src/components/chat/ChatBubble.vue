@@ -46,7 +46,7 @@ defineProps<{
   height: 2.25rem;
   border-radius: 50%;
   object-fit: contain;
-  background: #f9e1df;
+  background: var(--color-cinnamoroll-blue);
 }
 
 .avatar-placeholder {
@@ -68,14 +68,14 @@ defineProps<{
 
 .bubble-row.other .bubble {
   border-bottom-left-radius: 0.25rem;
-  background: #f9e1df;
-  color: var(--color-text);
+  background: var(--color-cinnamoroll-blue);
+  color: var(--color-heading);
 }
 
 .bubble-row.me .bubble {
   border-bottom-right-radius: 0.25rem;
-  background: var(--color-cinnamoroll-blue);
-  color: var(--color-heading);
+  background: #f9e1df;
+  color: var(--color-text);
 }
 
 /* Animación sutil de pop al aparecer */
